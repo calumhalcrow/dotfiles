@@ -48,3 +48,5 @@ match BadWhitespace /^\s\+/
 match BadWhitespace /\s\+$/
 
 set wildmenu
+
+filetype plugin on
