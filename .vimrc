@@ -5,6 +5,8 @@ syntax on
 filetype on
 au BufNewFile,BufRead *.tt set filetype=html
 
+nnoremap <F3> :Ack <cword><CR>
+
 set mouse=r
 
 set nohlsearch
