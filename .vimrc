@@ -5,7 +5,8 @@ syntax on
 filetype on
 au BufNewFile,BufRead *.tt set filetype=html
 
-nnoremap <F3> :Ack <cword><CR>
+map <F3> :Ack <cword><CR>
+map <F8> :TlistToggle<CR>
 
 set mouse=r
 
