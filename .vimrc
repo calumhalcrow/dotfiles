@@ -8,6 +8,8 @@ au BufNewFile,BufRead *.tt set filetype=html
 map <F3> :Ack <cword><CR>
 map <F8> :TlistToggle<CR>
 
+colorscheme elflord
+
 set mouse=r
 
 set nohlsearch
