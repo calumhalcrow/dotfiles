@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
+[submodule ".vim/bundle/go"]
+	path = .vim/bundle/go
+	url = git://github.com/jnwhiteh/vim-golang.git
