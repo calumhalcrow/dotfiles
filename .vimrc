@@ -14,6 +14,8 @@ set nohlsearch
 
 set number
 
+map <leader>jt <Esc>:%!json_xs -f json -t json-pretty<CR>
+
 " tab = 4 spaces!
 set expandtab
 set tabstop=4
