@@ -4,6 +4,7 @@ call pathogen#helptags()
 syntax on
 filetype on
 au BufNewFile,BufRead *.tt set filetype=html
+au BufNewFile,BufRead *.psgi set filetype=perl
 
 map <F3> :Ack <cword><CR>
 map <F8> :TlistToggle<CR>
