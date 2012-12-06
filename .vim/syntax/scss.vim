@@ -1,1 +1,1 @@
-contrib/scss-syntax.vim/syntax/scss.vim
+../../contrib/scss-syntax.vim/syntax/scss.vim

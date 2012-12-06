@@ -1,1 +1,1 @@
-contrib/scss-syntax.vim/ftdetect/scss.vim
+../../contrib/scss-syntax.vim/ftdetect/scss.vim
