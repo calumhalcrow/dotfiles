@@ -4,3 +4,6 @@
 [submodule ".vim/bundle/go"]
 	path = .vim/bundle/go
 	url = git://github.com/jnwhiteh/vim-golang.git
+[submodule "contrib/scss-syntax.vim"]
+	path = contrib/scss-syntax.vim
+	url = git://github.com/cakebaker/scss-syntax.vim.git
