@@ -12,7 +12,7 @@ map <F8> :TlistToggle<CR>
 set mouse=r
 set nohlsearch
 set number
-colorscheme wombat256
+colorscheme grb256
 
 map <leader>jt <Esc>:%!json_xs -f json -t json-pretty<CR>
 
