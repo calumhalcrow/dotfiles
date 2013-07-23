@@ -14,6 +14,8 @@ set nohlsearch
 set number
 colorscheme grb256
 
+let g:ctrlp_custom_ignore = 'vendor/'
+
 map <leader>jt <Esc>:%!json_xs -f json -t json-pretty<CR>
 
 " tab = 4 spaces!
