@@ -12,7 +12,13 @@ map <F8> :TlistToggle<CR>
 set mouse=r
 set nohlsearch
 set number
+
 colorscheme grb256
+
+"vim thinks it only has 8 colours in iterm/osx
+let &t_Co=256
+
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 let g:ctrlp_custom_ignore = 'vendor/'
 
