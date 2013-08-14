@@ -18,6 +18,9 @@ colorscheme zenburn
 "vim thinks it only has 8 colours in iterm/osx
 let &t_Co=256
 
+"Macs are such gentle creatures; they need to be handled with care :-)
+set backspace=indent,eol,start
+
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 let g:ctrlp_custom_ignore = 'vendor/'
