@@ -13,7 +13,7 @@ set mouse=r
 set nohlsearch
 set number
 
-colorscheme grb256
+colorscheme zenburn
 
 "vim thinks it only has 8 colours in iterm/osx
 let &t_Co=256
