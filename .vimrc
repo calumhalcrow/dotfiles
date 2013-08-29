@@ -21,9 +21,12 @@ let &t_Co=256
 "Macs are such gentle creatures; they need to be handled with care :-)
 set backspace=indent,eol,start
 
+set wildignore+=*.pyc
+
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 let g:ctrlp_custom_ignore = 'vendor/'
+let g:ctrlp_working_path_mode = ''
 
 map <leader>jt <Esc>:%!json_xs -f json -t json-pretty<CR>
 
