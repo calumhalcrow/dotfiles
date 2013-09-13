@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/vim-rails"]
 	path = .vim/bundle/vim-rails
 	url = git@github.com:tpope/vim-rails.git
+[submodule ".vim/bundle/PreserveNoEOL"]
+	path = .vim/bundle/PreserveNoEOL
+	url = git@github.com:vim-scripts/PreserveNoEOL.git
