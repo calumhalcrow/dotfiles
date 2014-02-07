@@ -66,6 +66,8 @@ match BadWhitespace /^\s\+/
 " Make trailing whitespace be flagged as bad
 match BadWhitespace /\s\+$/
 
+runtime macros/matchit.vim
+
 set wildmenu
 
 filetype plugin on

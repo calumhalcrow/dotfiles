@@ -22,3 +22,12 @@
 [submodule ".vim/bundle/emmet-vim"]
 	path = .vim/bundle/emmet-vim
 	url = git@github.com:mattn/emmet-vim.git
+[submodule ".vim/bundle/ruby-matchit"]
+	path = .vim/bundle/ruby-matchit
+	url = https://github.com/vim-scripts/ruby-matchit
+[submodule ".vim/bundle/vim-textobj-user"]
+	path = .vim/bundle/vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user
+[submodule ".vim/bundle/vim-textobj-rubyblock"]
+	path = .vim/bundle/vim-textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock
