@@ -12,6 +12,7 @@ map <F8> :TlistToggle<CR>
 set mouse=r
 set nohlsearch
 set number
+set colorcolumn=80
 
 colorscheme zenburn
 
