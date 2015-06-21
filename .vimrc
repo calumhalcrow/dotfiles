@@ -79,3 +79,7 @@ autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd BufRead,BufNewFile *.scss setlocal ts=2 sts=2 sw=2
 autocmd BufRead,BufNewFile *.erb setlocal ts=2 sts=2 sw=2
+autocmd BufRead,BufNewFile {*.markdown,*.mdown,*.mkdn,*.md,*.mkd,*.mdwn,*.mdtxt,*.mdtext,*.text} set filetype=markdown
+autocmd FileType markdown setlocal syntax=off spell
+
+let g:NERDTreeWinSize = 50
