@@ -1,9 +1,6 @@
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
-[submodule ".vim/bundle/go"]
-	path = .vim/bundle/go
-	url = git://github.com/jnwhiteh/vim-golang.git
 [submodule "contrib/scss-syntax.vim"]
 	path = contrib/scss-syntax.vim
 	url = git://github.com/cakebaker/scss-syntax.vim.git
@@ -13,15 +10,9 @@
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule ".vim/bundle/vim-rails"]
-	path = .vim/bundle/vim-rails
-	url = git@github.com:tpope/vim-rails.git
 [submodule ".vim/bundle/PreserveNoEOL"]
 	path = .vim/bundle/PreserveNoEOL
 	url = git@github.com:vim-scripts/PreserveNoEOL.git
-[submodule ".vim/bundle/emmet-vim"]
-	path = .vim/bundle/emmet-vim
-	url = git@github.com:mattn/emmet-vim.git
 [submodule ".vim/bundle/ruby-matchit"]
 	path = .vim/bundle/ruby-matchit
 	url = https://github.com/vim-scripts/ruby-matchit
@@ -31,6 +22,6 @@
 [submodule ".vim/bundle/vim-textobj-rubyblock"]
 	path = .vim/bundle/vim-textobj-rubyblock
 	url = https://github.com/nelstrom/vim-textobj-rubyblock
-[submodule ".vim/bundle/mustache"]
-	path = .vim/bundle/mustache
-	url = git://github.com/mustache/vim-mustache-handlebars.git
+[submodule "vim-mustache-handlebars"]
+	path = vim-mustache-handlebars
+	url = git@github.com:mustache/vim-mustache-handlebars.git
