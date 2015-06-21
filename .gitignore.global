@@ -1,0 +1,8 @@
+*.swp
+lib/tasks/local.rake
+Procfile.webservices.dev
+tags
+.rvmrc
+lib/tasks/all.rake
+_deploy/
+cleanse.sh
