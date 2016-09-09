@@ -1,5 +1,6 @@
 [core]
 	excludesfile = /Users/calum/.gitignore
+	compression = 0
 [user]
 	name = Calum Halcrow
 	email = calum@rrsoft.co

@@ -27,6 +27,7 @@ set wildignore+=*.pyc
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 let g:ctrlp_custom_ignore = 'vendor/'
+let g:ctrlp_custom_ignore = '_site/'
 let g:ctrlp_working_path_mode = ''
 
 map <leader>jt <Esc>:%!json_xs -f json -t json-pretty<CR>
@@ -74,11 +75,14 @@ set wildmenu
 filetype plugin on
 
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd BufRead,BufNewFile {*.jbuilder} set filetype=ruby
 autocmd Filetype haml setlocal ts=2 sts=2 sw=2
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+autocmd Filetype sql setlocal ts=2 sts=2 sw=2
 autocmd BufRead,BufNewFile *.scss setlocal ts=2 sts=2 sw=2
 autocmd BufRead,BufNewFile *.erb setlocal ts=2 sts=2 sw=2
+autocmd BufRead,BufNewFile *.yml setlocal ts=2 sts=2 sw=2
 autocmd BufRead,BufNewFile {*.markdown,*.mdown,*.mkdn,*.md,*.mkd,*.mdwn,*.mdtxt,*.mdtext,*.text} set filetype=markdown
 autocmd FileType markdown setlocal syntax=off spell
 

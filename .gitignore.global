@@ -6,3 +6,4 @@ tags
 lib/tasks/all.rake
 _deploy/
 cleanse.sh
+example_*.json
